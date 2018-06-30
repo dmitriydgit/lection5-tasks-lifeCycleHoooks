@@ -1,0 +1,19 @@
+<!-- <p>
+	child2 works!
+</p> -->
+
+<p [ngClass]="{
+		'small-font': font === '1',
+		'medium-font' : font === '2',
+		'big-font': font === '3', 
+		'color-red': color === 'color-0',
+		'color-blue' : color === 'color-1',
+		'color-green': color === 'color-2'
+	}">
+	{{msg}}</p>
+
+
+
+<!-- 	{ value: 'color-0', viewValue: 'Красный' },
+		{ value: 'color-1', viewValue: 'Синий' },
+		{ value: 'color-2', viewValue: 'Зеленый' } -->

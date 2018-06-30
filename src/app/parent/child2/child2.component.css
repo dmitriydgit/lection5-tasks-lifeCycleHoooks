@@ -1,0 +1,19 @@
+.small-font{
+	font-size: 14px;
+}
+.medium-font{
+	font-size: 20px;
+}
+.big-font{
+	font-size: 28px;
+}
+
+.color-red{
+	color:red;
+}
+.color-blue{
+	color:blue;
+}
+.color-green{
+	color:green;
+}

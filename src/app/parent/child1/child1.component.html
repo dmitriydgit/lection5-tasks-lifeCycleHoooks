@@ -1,0 +1,21 @@
+<!-- <p>
+	child1 works!
+</p>
+<p>маленький шрифт, средний шрифт, большой шрифт</p> -->
+<mat-radio-group>
+	<mat-radio-button value="1" (click)="setFont('1')">маленький шрифт</mat-radio-button>
+	<mat-radio-button value="2" (click)="setFont('2')">средний шрифт</mat-radio-button>
+	<mat-radio-button value="3" (click)="setFont('3')">большой шрифт</mat-radio-button>
+</mat-radio-group>
+
+<!-- <div>{{font}}</div> -->
+
+<mat-form-field>
+	<mat-select placeholder="Choose color">
+		<mat-option *ngFor="let color of colors" [value]="color.value" (click)="setColor(color.value)">
+			{{color.viewValue}}
+		</mat-option>
+	</mat-select>
+</mat-form-field>
+
+<!-- <div>{{color}}</div> -->
